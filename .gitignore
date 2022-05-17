@@ -11,6 +11,9 @@
 [Uu]nityGenerated/
 [Mm]emoryCaptures/
 [Ll]ogs/
+Logs/
+
+*.log
 
 # file on crash reports
 sysinfo.txt
@@ -53,3 +56,5 @@ sysinfo.txt
 *.unitypackage
 
 crashlytics-build.properties
+
+.idea/
