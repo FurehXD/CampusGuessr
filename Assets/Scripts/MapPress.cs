@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class MapPress : MonoBehaviour
 {
@@ -16,6 +17,13 @@ public class MapPress : MonoBehaviour
     public Camera testcam;
     void Update()
     {
+#if false
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+#endif
+
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
