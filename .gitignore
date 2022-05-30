@@ -3,11 +3,18 @@
 ###
 [Aa]ssets/AssetStoreTools*
 [Bb]uild/
+[Bb]uilds/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
 [Oo]bj/
 [Tt]emp/
 [Uu]nityGenerated/
+[Mm]emoryCaptures/
+[Ll]ogs/
+Logs/
+
+*.log
+
 # file on crash reports
 sysinfo.txt
 # Unity3D generated meta files
@@ -27,6 +34,7 @@ sysinfo.txt
 *.userprefs
 *.pidb
 .DS_Store
+.vs/
 
 ###
 # OS generated
@@ -39,3 +47,23 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
+
+
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+sysinfo.txt
+*.apk
+*.unitypackage
+
+crashlytics-build.properties
+
+.idea/
+Logs/AssetImportWorker0-prev.log
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1-prev.log
+Logs/AssetImportWorker1.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
+ProjectSettings/RiderScriptEditorPersistedState.asset
+Logs/AssetImportWorker0.log
+*.log
